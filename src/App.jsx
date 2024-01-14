@@ -4,6 +4,7 @@ import Team from './Team.jsx';
 import Counter from './Counter.jsx';
 import Student from './Student.jsx';
 import Friend from './Friend.jsx';
+import User from './User.jsx';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       
       <h3>React Core Concept Part 2</h3>
 
+      <User />
+
       <Student />
 
       <Team /> 
@@ -51,13 +54,6 @@ function App() {
 
 
       <Counter />
-
-      <Friend name="Sayem Bhuiyan" age= '21' cgpa="3.92" roll="465508" />
-      <Friend name="Fahim Sarker" age="21" />
-      <Friend name="Akash Islam" age= '21' roll="465489" cgpa='3.91' />
-      <Friend name='Shajib Sarker' age='22' roll='465496' />
-      <Friend name='Tipu Ahsan' age='23' roll= '465495' />
-
       
     </>
   )
